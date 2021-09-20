@@ -27,3 +27,5 @@
 * __```==``` vs ```===```__: ```==``` allows coercion (types different) and ```===``` disallows coercion (types same). when the types are already the same, the dobule equals and triple equals do the exactle the same thing in 100% of all cases. ```===``` is not about comparisons with unknown types, it is about comparisons with known type(s), optionally where conversion are helpful.
 
 * __Scope__: Well-defined set of rules for storing variables in some location, and for finding those variables at a later time.
+
+* __undefined vs undeclared variable__: undefined is a variable that has been declared, but it does not have value and then a variable that is undeclared is 
