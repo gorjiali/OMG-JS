@@ -28,4 +28,6 @@
 
 * __Scope__: Well-defined set of rules for storing variables in some location, and for finding those variables at a later time.
 
-* __undefined vs undeclared variable__: undefined is a variable that has been declared, but it does not have value and then a variable that is undeclared is 
+* __function expressing__: a function expression is a function that is assigned as a value somewhere. ```var clickHandler = function() { ... }``` (*anonymous function expression*) or ```var clickHandler = function clickHandler() { ... }``` (*named function expression*), best way to identify a *function expression* is: function expressions can be anonymous, but function declarations cannot omit the name. (always use *named function expression* in all cases ;))
+
+  * __Immediately Invoked Function Expression (IIFE)__: declaring and running immediately a function in a new block. ```(function anotherTeacher() { ... })();```. that allows us to encapsulate some of out behaviors and things so that they don't pollute other parts of program.
